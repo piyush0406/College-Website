@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa"
 
 export const Container = styled.div`
-    height: 35vh;
+    height: 100%;
     width: 100vw;
     padding: 80px 60px;
     background: var(--secondary);

@@ -10,8 +10,8 @@ export const Section = styled.section`
         height: 60vh;
     }
 
-    @media screen and (max-width: 480px) {
-        
+    @media screen and (max-width: 540px) {
+        display: none;
     }
 `;
 export const Container = styled.div`
