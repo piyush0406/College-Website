@@ -13,6 +13,11 @@ export const Button =styled(CustomButtonOne)`
 export const Section =  styled.section`
     height: 80vh;
     width: 100vw;
+
+    @media screen and (max-width: 480px) {
+        margin-bottom: 10rem;
+    }
+
 `;
 export const Container =  styled.div`
     overflow: hidden;
@@ -33,12 +38,12 @@ export const MainTilte = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        p {
+       p {
             padding: 1.5rem;
             font-size:2.5rem;
         }
     }
-`;
+`; 
 export const ColumnLeft = styled.div`
     padding: 3rem;
     
