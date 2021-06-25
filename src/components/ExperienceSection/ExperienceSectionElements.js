@@ -40,6 +40,7 @@ export const ColumnLeft = styled.div`
     display: flex;
     background-color: transparent;
     opacity: 0;
+    visibility:hidden;
     transition: all 0.5s ease;
     flex-direction: column;
     align-items: left;

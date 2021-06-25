@@ -32,11 +32,14 @@ const ExperienceSection = () => {
     const inViewport = useIntersection(ref); // Trigger as soon as the element becomes visible
     
     if (inViewport) {
-        document.getElementById("leftContainer").style.opacity="1";        
+        document.getElementById("leftContainer").style.opacity="1"; 
+        document.getElementById("leftContainer").style.visibility="visible";        
     }
     else{
-        if(document.getElementById("leftContainer"))
-        document.getElementById("leftContainer").style.opacity="0";
+        if(document.getElementById("leftContainer")){            
+            document.getElementById("leftContainer").style.opacity="0";
+            document.getElementById("leftContainer").style.visibility="hidden";  
+        }
     }
 
     return (
