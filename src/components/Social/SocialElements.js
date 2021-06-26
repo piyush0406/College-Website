@@ -71,8 +71,8 @@ export const RightContainer = styled.div`
 export const Header = styled.div`
     font-size:4rem;
     width: 80%;
-    padding: 3rem;
     padding-top: 5rem;
+    padding-left: 3rem;
     line-height: 1;
     font-weight: 800;
 
@@ -82,6 +82,9 @@ export const Header = styled.div`
 
     span{
         color: white;
+    }
+    @media screen and (max-width: 1366px) {
+       font-size: 3rem;
     }
 
     @media screen and (max-width: 768px) {
